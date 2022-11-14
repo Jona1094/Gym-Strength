@@ -9,7 +9,7 @@ inicio.appendChild (bienvenida)
 let imgInicio1 = document.createElement ('IMG')
 bienvenida.appendChild (imgInicio1)
 imgInicio1.classList.add ('imgInicio')
-imgInicio1.setAttribute ('SRC', '../img/persona1.jpg')
+imgInicio1.setAttribute ('SRC', '../img/entrenando.png')
 
 
 //Texto Inicio
@@ -243,7 +243,7 @@ for (let i = 0; i < datosPlanes.length; i++) {
 
 
 
-/* let sect2 = document.createElement ('DIV')
+let sect2 = document.createElement ('DIV')
 contenedor.appendChild (sect2)
 sect2.classList.add ('grid3')
 
@@ -298,7 +298,7 @@ for (let i = 0; i < talleres.length; i++) {
 }
 
 sect2.appendChild (tallertemporal)
- */
+
 
 // Sect 1 y Sect 2 ACORDION **
 
