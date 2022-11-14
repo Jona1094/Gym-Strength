@@ -7,13 +7,10 @@ let bienvenida = document.createElement ('DIV')
 bienvenida.classList.add ('bienvenida')
 inicio.appendChild (bienvenida)
 let imgInicio1 = document.createElement ('IMG')
-let imgInicio2 = document.createElement ('IMG')
 bienvenida.appendChild (imgInicio1)
-bienvenida.appendChild (imgInicio2)
 imgInicio1.classList.add ('imgInicio')
-imgInicio2.classList.add ('imgInicio')
-imgInicio1.setAttribute ('SRC', '../img/persona3.jpg')
-imgInicio2.setAttribute ('SRC', '../img/persona4.jpg')
+imgInicio1.setAttribute ('SRC', '../img/persona1.jpg')
+
 
 //Texto Inicio
 let textoInicio1 = document.createElement ('H1')
@@ -246,7 +243,7 @@ for (let i = 0; i < datosPlanes.length; i++) {
 
 
 
-let sect2 = document.createElement ('DIV')
+/* let sect2 = document.createElement ('DIV')
 contenedor.appendChild (sect2)
 sect2.classList.add ('grid3')
 
@@ -301,7 +298,7 @@ for (let i = 0; i < talleres.length; i++) {
 }
 
 sect2.appendChild (tallertemporal)
-
+ */
 
 // Sect 1 y Sect 2 ACORDION **
 
